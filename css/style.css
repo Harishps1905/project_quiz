@@ -1,0 +1,141 @@
+#heading {
+  position: absolute;
+  color: white;
+  font-weight: 900;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: -330px;
+}
+#ash {
+  position: absolute;
+  bottom: 12%;
+  color: white;
+  left: -300px;
+  margin-left: -47px;
+}
+#from {
+  position: absolute;
+  bottom: 16%;
+  left: 50%;
+  margin-left: -31.5px;
+  font-size: 30px;
+  opacity: 0;
+  color: white;
+}
+
+/* animation */
+
+.banner-animate-1 {
+  animation: banner-1-animation 1s forwards;
+}
+.banner-animate-2 {
+  animation: banner-2-animation 1s forwards;
+}
+.banner-animate-3 {
+  animation: banner-3-animation 1s forwards;
+}
+.banner-animate-4 {
+}
+
+/* index_2 */
+body {
+  /* Location of the image */
+  background-image: url(../images/bg_1.jpg);
+
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color: #464646;
+
+  /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(../images/bg_1.jpg);
+  }
+}
+.main_form {
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -250px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+}
+.main_lab {
+  margin-top: 65px;
+  color: aliceblue;
+  font: 22px bold;
+}
+.main_in {
+  margin-top: 60px;
+}
+.main_in input {
+  border: none;
+  border-radius: 20px;
+  height: 35px;
+}
+.main_in input[type="text"]::placeholder {
+  text-align: center;
+}
+.main_but {
+  margin-top: 40px;
+}
+.main_but button {
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  border: none;
+  background-color: greenyellow;
+}
+
+/* index_3 */
+
+.question {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px 100px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffff;
+}
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 400px;
+}
+.options .option {
+  margin: 10px;
+  padding: 30px 100px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffff;
+}
+.options .option:hover {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: #ffff;
+}
