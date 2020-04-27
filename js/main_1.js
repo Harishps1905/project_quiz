@@ -43,63 +43,63 @@ $(".opt_12").click(function () {
 $(".opt_13").click(function () {
   pg1.hide();
   alert("quiz completed and u answered all the question correct");
-  location.replace("../index/index_2.html");
+  location.replace("../index.html");
 });
 
 $(".opt_2").click(function () {
   alert("your answer is incorrect, u r out of the game");
-  location.replace("../index/index_2.html");
+   location.replace("../index.html");
 });
 
 $(".opt_3").click(function () {
   alert("your answer is incorrect, u r out of the game");
-  location.replace("../index/index_2.html");
+   location.replace("../index.html");
 });
 
 $(".opt_4").click(function () {
   alert("your answer is incorrect, u r out of the game");
-  location.replace("../index/index_2.html");
+   location.replace("../index.html");
 });
 
 $(".opt_5").click(function () {
   alert("your answer is incorrect, u r out of the game");
-  location.replace("../index/index_2.html");
+   location.replace("../index.html");
 });
 
 $(".opt_6").click(function () {
   alert("your answer is incorrect, u r out of the game");
-  location.replace("../index/index_2.html");
+   location.replace("../index.html");
 });
 $(".opt_7").click(function () {
   alert("your answer is incorrect, u r out of the game");
-  location.replace("../index/index_2.html");
+   location.replace("../index.html");
 });
 
 $(".opt_9").click(function () {
   alert("your answer is incorrect, u r out of the game");
-  location.replace("../index/index_2.html");
+   location.replace("../index.html");
 });
 
 $(".opt_10").click(function () {
   alert("your answer is incorrect, u r out of the game");
-  location.replace("../index/index_2.html");
+   location.replace("../index.html");
 });
 
 $(".opt_11").click(function () {
   alert("your answer is incorrect, u r out of the game");
-  location.replace("../index/index_2.html");
+   location.replace("../index.html");
 });
 
 $(".opt_14").click(function () {
   alert("your answer is incorrect, u r out of the game");
-  location.replace("../index/index_2.html");
+   location.replace("../index.html");
 });
 $(".opt_15").click(function () {
   alert("your answer is incorrect, u r out of the game");
-  location.replace("../index/index_2.html");
+   location.replace("../index.html");
 });
 
 $(".opt_16").click(function () {
   alert("your answer is incorrect, u r out of the game");
-  location.replace("../index/index_2.html");
+   location.replace("../index.html");
 });

@@ -11,26 +11,28 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
 
-    <title>Passions Inc</title>
+    <title>Main page</title>
   </head>
   <body>
-    <section id="intro_page">
-      <div id="heading">
-        <h1>QUIZ</h1>
-      </div>
-      <div id="ash">
-        <span>Ash</span>
-        <span>&</span>
-        <span>Team</span>
-      </div>
-      <div id="from">
-        <span>from</span>
-      </div>
+    <section id="main_sec">
+      <form
+        class="main_form"
+        onsubmit="return validate()"
+        action="index/index_2.html"
+      >
+        <div class="main_lab">
+          <label for="">Welcome to the quiz</label>
+        </div>
+        <div class="main_in">
+          <input id="my_name" type="text" placeholder="Enter your name" />
+        </div>
+        <div class="main_but">
+          <button type="submit">START</button>
+        </div>
+      </form>
     </section>
-
-    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
@@ -48,7 +50,6 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
-    <script src="js/jquery-3.3.1.slim.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/main_1.js"></script>
   </body>
 </html>
